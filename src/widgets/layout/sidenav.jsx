@@ -13,7 +13,7 @@ export function Sidenav({ brandImg, brandName, routes }) {
   const [controller, dispatch] = useMaterialTailwindController();
   const { sidenavColor, sidenavType, openSidenav } = controller;
   const sidenavTypes = {
-    dark: "bg-gradient-to-br from-red-800 to-red-900",
+    dark: "bg-gradient-to-br from-blue-800 to-blue-900",
     white: "bg-blue shadow-lg",
     transparent: "bg-transparent",
   };

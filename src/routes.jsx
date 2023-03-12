@@ -36,13 +36,7 @@ export const routes = [
         path: "/notifactions",
         element: <Notifications />,
       },
-      {
-       icon: <UserCircleIcon {...icon} />,
-       name: "profile",
-       path: "/profile",
-       element: <Profile />,
-     }  
-    
+     
     ],
   },
   {
@@ -62,7 +56,14 @@ export const routes = [
         name: "sign up",
         path: "/sign-up",
         element: <SignUp />,
-      }
+      },
+      {
+        icon: <UserCircleIcon {...icon} />,
+        name: "profile",
+        path: "/profile",
+        element: <Profile />,
+      }  
+     
     ],
   },
 ];
